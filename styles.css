@@ -150,7 +150,7 @@ main{
   font-size: 1.4rem; /* 14px */
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: #858585;
 }
 
 .main-currency-table {
@@ -368,7 +368,7 @@ main{
   width: 100%;
   min-width: 320;
   height: 50vh;
-  background-image: url('./assets/img/bitcoinbaby2x.jpg');
+  background-image: url('./assets/img/bitcoinbaby.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -458,6 +458,13 @@ main{
   color: black;
 }
 
+.plan-card--price .ctvs{
+  position: absolute;
+  top: -7px;
+  right: -20px;
+  font-size: 2.2rem;
+}
+
 .plan-card--price span{
   position: absolute;
   top: -7px;
@@ -536,3 +543,8 @@ footer .left ul{
   text-decoration: none;
 }
 
+.right img{
+  min-width: 50px;
+  width: 70px;
+  height: 70px;
+}
